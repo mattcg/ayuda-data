@@ -9,5 +9,9 @@ tsvs := \
 	data/tsv/países-deuda.tsv \
 	data/tsv/países-total.tsv
 
+tsvs: $(tsvs)
+
 $(tsvs): data/tsv/%.tsv: scripts/sql/%.sql scripts/sql/países-códigos.sql
 	cat scripts/sql/países-códigos.sql $< | $(mysql) -B > $@
+
+.PHONY: tsvs
