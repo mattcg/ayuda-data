@@ -1,0 +1,54 @@
+{
+	"name": "ayuda-al-desarrollo-espana",
+	"datapackage_version": "1.0-beta.5",
+	"title": "Ayuda oficial al desarrollo, 2007-2012, España",
+	"description": "Datos sobre el ayuda oficial al desarrallo que viene de España.",
+	"version": "0.0.1",
+	"keywords": [
+		"spain",
+		"aid",
+		"development"
+	],
+	"licenses": [
+		{
+			"id": "odc-by",
+			"url": "http://opendatacommons.org/licenses/by/1.0/",
+			"name": "Open Data Commons Attribution License",
+			"version": "1.0"
+		}
+	],
+	"sources": [
+		{
+			"name": "Dirección General de Migración y Extranjería",
+			"web": "http://www.migracion.go.cr/"
+		}
+	],
+	"contributors": [
+		{
+			"name": "Mar Cabra",
+			"email": "mar.cabra.valera@gmail.com",
+			"web": "https://twitter.com/cabralens"
+		}
+	],
+	"maintainers": [
+		{
+			"name": "Matthew Caruana Galizia",
+			"email": "m@m.cg",
+			"web": "http://m.cg/"
+		}
+	],
+	"resources": [
+		{
+			"path": "data/tsv/países-créditos.csv",
+			"format": "tsv"
+		},
+		{
+			"path": "data/tsv/países-deuda.csv",
+			"format": "tsv"
+		},
+		{
+			"path": "data/tsv/países-total.csv",
+			"format": "tsv"
+		}
+	]
+}
