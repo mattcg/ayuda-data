@@ -4,14 +4,21 @@ mysql := \
 	--password=ayuda \
 	ayuda
 
-tsvs := \
-	data/tsv/países-créditos.tsv \
-	data/tsv/países-deuda.tsv \
-	data/tsv/países-total.tsv
+types := créditos total deuda
 
-tsvs: $(tsvs)
+paises_tsvs := $(types:%=data/tsv/países-%.tsv)
+continentes_tsvs := $(types:%=data/tsv/continentes-%.tsv)
+subcontinentes_tsvs := $(types:%=data/tsv/subcontinentes-%.tsv)
 
-$(tsvs): data/tsv/%.tsv: scripts/sql/%.sql scripts/sql/países-códigos.sql
+tsvs: $(paises_tsvs) $(continentes_tsvs) $(subcontinentes_tsvs)
+
+$(paises_tsvs): data/tsv/%.tsv: scripts/sql/%.sql scripts/sql/países-códigos.sql
 	cat scripts/sql/países-códigos.sql $< | $(mysql) -B > $@
+
+$(continentes_tsvs): data/tsv/%.tsv: scripts/sql/%.sql scripts/sql/continentes-códigos.sql
+	cat scripts/sql/continentes-códigos.sql $< | $(mysql) -B > $@
+
+$(subcontinentes_tsvs): data/tsv/%.tsv: scripts/sql/%.sql scripts/sql/subcontinentes-códigos.sql
+	cat scripts/sql/subcontinentes-códigos.sql $< | $(mysql) -B > $@
 
 .PHONY: tsvs
