@@ -12,13 +12,13 @@ subcontinentes_tsvs := $(types:%=data/tsv/subcontinentes-%.tsv)
 
 tsvs: $(paises_tsvs) $(continentes_tsvs) $(subcontinentes_tsvs)
 
-$(paises_tsvs): data/tsv/%.tsv: scripts/sql/%.sql scripts/sql/países-códigos.sql
+$(paises_tsvs): data/tsv/%.tsv: scripts/sql/%.sql scripts/sql/países-códigos.sql scripts/data/países-códigos.csv
 	cat scripts/sql/países-códigos.sql $< | $(mysql) -B > $@
 
-$(continentes_tsvs): data/tsv/%.tsv: scripts/sql/%.sql scripts/sql/continentes-códigos.sql
+$(continentes_tsvs): data/tsv/%.tsv: scripts/sql/%.sql scripts/sql/continentes-códigos.sql scripts/data/continentes-códigos.csv
 	cat scripts/sql/continentes-códigos.sql $< | $(mysql) -B > $@
 
-$(subcontinentes_tsvs): data/tsv/%.tsv: scripts/sql/%.sql scripts/sql/subcontinentes-códigos.sql
+$(subcontinentes_tsvs): data/tsv/%.tsv: scripts/sql/%.sql scripts/sql/subcontinentes-códigos.sql scripts/data/subcontinentes-códigos.csv
 	cat scripts/sql/subcontinentes-códigos.sql $< | $(mysql) -B > $@
 
 .PHONY: tsvs
