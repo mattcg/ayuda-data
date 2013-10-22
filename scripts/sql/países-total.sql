@@ -1,5 +1,6 @@
 SELECT
 	`2007a2012`.`Año` AS `año`,
+	`2007a2012`.`16.a. País o región` AS `nombre`,
 	`países_códigos`.`código` AS `código`,
 	SUM(REPLACE(2007a2012.`13. Des AOD (€)`,',','')) AS `total`
 FROM 2007a2012
