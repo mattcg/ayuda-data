@@ -4,17 +4,17 @@ mysql := \
 	--password=ayuda \
 	ayuda
 
-types := créditos total deuda
+types := creditos total deuda
 
-paises_tsvs := $(types:%=data/tsv/países-%.tsv)
+paises_tsvs := $(types:%=data/tsv/paises-%.tsv)
 regiones_tsvs := $(types:%=data/tsv/regiones-%.tsv)
 
 tsvs: $(paises_tsvs) $(regiones_tsvs)
 
-$(paises_tsvs): data/tsv/%.tsv: scripts/sql/%.sql scripts/sql/países-códigos.sql scripts/data/países-códigos.csv
-	cat scripts/sql/países-códigos.sql $< | $(mysql) -B > $@
+$(paises_tsvs): data/tsv/%.tsv: scripts/sql/%.sql scripts/sql/paises-codigos.sql scripts/data/paises-codigos.csv
+	cat scripts/sql/paises-codigos.sql $< | $(mysql) -B > $@
 
-$(regiones_tsvs): data/tsv/%.tsv: scripts/sql/%.sql scripts/sql/países-códigos.sql scripts/data/países-códigos.csv
-	cat scripts/sql/países-códigos.sql $< | $(mysql) -B > $@
+$(regiones_tsvs): data/tsv/%.tsv: scripts/sql/%.sql scripts/sql/paises-codigos.sql scripts/data/paises-codigos.csv
+	cat scripts/sql/paises-codigos.sql $< | $(mysql) -B > $@
 
 .PHONY: tsvs
