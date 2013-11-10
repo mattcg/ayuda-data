@@ -1,5 +1,6 @@
 SELECT
 	`2007a2012`.`Año` AS `año`,
+	SUBSTRING_INDEX(`2007a2012`.`14.d. Sector CAD`, ' - ', 1) AS `CAD`,
 	`2007a2012`.`14.a. Sector CRS` AS `CRS`,
 	COUNT(`CAD`) AS `num`,
 	SUM(REPLACE(`2007a2012`.`13. Des AOD (€)`,',','')) AS `total`,
