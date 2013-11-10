@@ -1,7 +1,10 @@
 SELECT
 	`2007a2012`.`Año` AS `año`,
 	`2007a2012`.`14.a. Sector CRS` AS `CRS`,
-	COUNT(`CAD`) AS `total`,
+	COUNT(`CAD`) AS `num`,
+	SUM(REPLACE(`2007a2012`.`13. Des AOD (€)`,',','')) AS `total`,
+	SUM(IF(`2007a2012`.`13. Des AOD (€)` < 0, 0, REPLACE(`2007a2012`.`13. Des AOD (€)`,',',''))) AS `deuda`,
+	ABS(SUM(IF(`2007a2012`.`13. Des AOD (€)` > 0, 0, REPLACE(`2007a2012`.`13. Des AOD (€)`,',','')))) AS `créditos`,
 	`temas_códigos`.`nombre` AS `nombre`
 FROM `2007a2012`
 LEFT JOIN `temas_códigos` ON
