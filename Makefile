@@ -1,3 +1,5 @@
+.DELETE_ON_ERROR:
+
 mysql := \
 	mysql \
 	--user=ayuda \
@@ -5,17 +7,12 @@ mysql := \
 	ayuda \
 	-B
 
-types := creditos total deuda
+tsvs: data/tsv/paises.tsv data/tsv/regiones.tsv data/tsv/temas.tsv data/tsv/subtemas.tsv
 
-paises_tsvs := $(types:%=data/tsv/paises-%.tsv)
-regiones_tsvs := $(types:%=data/tsv/regiones-%.tsv)
-
-tsvs: $(paises_tsvs) $(regiones_tsvs) data/tsv/temas.tsv data/tsv/subtemas.tsv
-
-$(paises_tsvs): data/tsv/%.tsv: scripts/sql/%.sql scripts/sql/paises-codigos.sql scripts/data/paises-codigos.csv
+data/tsv/paises.tsv: scripts/sql/paises.sql scripts/sql/paises-codigos.sql scripts/data/paises-codigos.csv
 	cat scripts/sql/paises-codigos.sql $< | $(mysql) > $@
 
-$(regiones_tsvs): data/tsv/%.tsv: scripts/sql/%.sql
+data/tsv/regiones.tsv: scripts/sql/regiones.sql
 	cat $< | $(mysql) > $@
 
 data/tsv/temas.tsv: scripts/sql/temas.sql scripts/sql/temas-codigos.sql scripts/data/temas-codigos.csv
