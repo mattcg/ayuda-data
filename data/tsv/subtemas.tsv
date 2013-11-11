@@ -7,7 +7,7 @@ año	CAD	CRS	num	total	deuda	créditos	nombre
 2007	112	11230	165	10411221	10411221	0	Capacitación básica de jóvenes y adultos
 2007	112	11240	73	1671009	1671009	0	Educación primera infancia
 2007	113	11320	102	2242699	2242699	0	Educación secundaria
-2007	113	11330	381	34847749	34847749	0	Formación profesional 
+2007	113	11330	381	34847749	34847749	0	Formación profesional
 2007	114	11420	541	37864238	37864238	0	Educación universitaria
 2007	114	11430	149	16574909	16574909	0	Formación superior técnica y de dirección
 2007	121	12110	171	8571577	8571577	0	Política sanitaria y gestión administrativa
@@ -173,7 +173,7 @@ año	CAD	CRS	num	total	deuda	créditos	nombre
 2008	112 	11230 	317	24156868	24156868	0	Capacitación básica de jóvenes y adultos
 2008	112 	11240 	72	2927891	2927891	0	Educación primera infancia
 2008	113 	11320 	182	9975589	9975589	0	Educación secundaria
-2008	113 	11330 	353	50758869	50810511	51642	Formación profesional 
+2008	113 	11330 	353	50758869	50810511	51642	Formación profesional
 2008	114 	11420 	573	86817809	86817809	0	Educación universitaria
 2008	114 	11430 	56	3672186	3672186	0	Formación superior técnica y de dirección
 2008	121 	12110 	277	46493110	47181728	688618	Política sanitaria y gestión administrativa
@@ -341,3 +341,728 @@ año	CAD	CRS	num	total	deuda	créditos	nombre
 2008	930 	93010 	132	28201567	28201567	0	Ayuda a refugiados en el país donante
 2008	998 	99810 	1012	203232580	309910688	106678108	Sectores no especificados
 2008	998 	99820 	2116	62412787	62412787	0	Sensibilización sobre los problemas rel. con el desarrollo
+2009	111	11110	395	52301278	52301278	0	Política educativa y gestión administrativa
+2009	111	11120	415	31727256	32497899	770643	Servicios e instalaciones educativas y formación
+2009	111	11130	144	7733247	7733247	0	Formación de profesores
+2009	111	11182	103	7275879	7275879	0	Investigación educativa
+2009	112	11220	561	121041097	121041097	0	Educación primaria
+2009	112	11230	247	15447702	15447702	0	Capacitación básica de jóvenes y adultos
+2009	112	11240	182	3393704	3393704	0	Educación primera infancia
+2009	113	11320	158	8193275	8193275	0	Educación secundaria
+2009	113	11330	432	47444511	48557840	1113329	Formación profesional
+2009	114	11420	758	45178767	46444498	1265731	Educación universitaria
+2009	114	11430	126	3801917	3801917	0	Formación superior técnica y de dirección
+2009	121	12110	330	109488193	109488193	0	Política sanitaria y gestión administrativa
+2009	121	12181	66	646066	1774434	1128368	Enseñanza y formación médicas
+2009	121	12182	220	5452780	5452780	0	Investigación médica
+2009	121	12191	194	14057826	14057826	0	Servicios médicos
+2009	122	12220	436	46677054	46677054	0	Atención sanitaria básica
+2009	122	12230	219	19993084	28753369	8760285	Infraestructura sanitaria básica
+2009	122	12240	281	10674240	10674240	0	Nutrición básica
+2009	122	12250	259	32391776	32682609	290833	Control de enfermedades infecciosas
+2009	122	12261	75	1793756	1793756	0	Educación sanitaria
+2009	122	12262	154	40452017	40452017	0	Control de la malaria
+2009	122	12263	126	20796921	20796921	0	Control de la tuberculosis
+2009	122	12281	57	5790308	5790308	0	Formación personal sanitario
+2009	130	13010	325	19252264	19252264	0	Política sobre población y gestión administrativa
+2009	130	13020	455	50563950	50563950	0	Atención a la salud reproductiva
+2009	130	13030	27	5342760	5342760	0	Planificación familiar
+2009	130	13040	668	113441211	113441211	0	Lucha contra las ETS (Enf. Trans. Sexual), incluido el SIDA
+2009	130	13081	34	2313928	2313928	0	Formación de personal para población y salud reproductiva
+2009	140	14010	245	25125713	25125713	0	Política de recursos hídricos y gestión administrativa
+2009	140	14015	49	3137430	3137430	0	Protección recursos hídricos
+2009	140	14020	220	97187596	97187596	0	Abastecimiento y depuración de agua-sistemas de envergadura
+2009	140	14030	562	255322344	259157659	3835315	Abastecimiento básico de agua potable y saneamiento básico
+2009	140	14040	52	32042482	32713751	671269	Desarrollo cuencas fluviales
+2009	140	14050	135	5116191	7674338	2558147	Eliminación / tratamiento residuos sólidos
+2009	140	14081	81	3574522	3574522	0	Educación y formación en abastecimiento de agua y saneamiento
+2009	151	15110	1453	158362693	160354879	1992186	Política de administración y gestión del sector público
+2009	151	15111	24	2291808	2291808	0	Gestión financiera del sector público
+2009	151	15112	202	42282392	42282392	0	Descentralización y apoyo a los gobiernos regionales y locales
+2009	151	15113	6	432600	432600	0	Organizaciones de lucha contra la corrupción de las instituciones
+2009	151	15130	468	32459636	32459636	0	Desarrollo legal y judicial
+2009	151	15150	662	49240500	49240500	0	Fortalecimiento de la sociedad civil
+2009	151	15151	156	19982275	19982275	0	Procesos electorales
+2009	151	15152	7	1615676	1615676	0	Legislaturas y partidos políticos
+2009	151	15153	51	1118044	1118044	0	Medios de comunicación y el libre flujo de información
+2009	151	15162	642	63374933	63374933	0	Derechos humanos
+2009	151	15170	682	106581745	106581745	0	Organizaciones e instit. de la igualdad de las mujeres
+2009	152	15210	91	21747958	21747958	0	Gestión y reforma de los sistemas de seguridad
+2009	152	15220	216	33491407	33491407	0	Construcción de la paz y prevención de conflictos
+2009	152	15230	71	22510478	22510478	0	Procesos de consolidación de la paz tras conflictos (NNUU)
+2009	152	15240	24	1719925	1719925	0	Desmovilización y control de la prolif. armas ligeras (SALW)
+2009	152	15250	98	8656873	8656873	0	Retirada de minas antipersonas
+2009	152	15261	19	674989	674989	0	Niños soldados: prevención y desmovilización
+2009	160	16010	798	75188244	75188244	0	Seguridad social, servicios sociales
+2009	160	16020	380	33889216	33889216	0	Política de empleo y gestión administrativa
+2009	160	16030	53	2815725	2815725	0	Política de vivienda y gestión administrativa
+2009	160	16040	166	14443247	14443247	0	Viviendas de bajo coste
+2009	160	16050	433	87826733	87826733	0	Ayuda multisectorial para servicios sociales básicos
+2009	160	16061	1073	47392901	47392901	0	Cultura y ocio
+2009	160	16062	194	3449386	3449386	0	Capacitación estadística
+2009	160	16063	32	2745453	2745453	0	Control de estupefacientes
+2009	160	16064	102	2767648	2767648	0	Mitigación social del VIH / SIDA
+2009	210	21010	111	13049612	15449546	2399934	Política de transportes y gestión administrativa
+2009	210	21020	271	109034056	117049931	8015875	Transporte por carretera
+2009	210	21030	47	183369608	184750105	1380497	Transporte por ferrocarril
+2009	210	21040	65	5866988	14093761	8226773	Transporte marítimo y fluvial
+2009	210	21050	67	4769869	4909064	139195	Transporte aéreo
+2009	210	21061	3	33534	33534	0	Almacenamiento
+2009	210	21081	13	134941	134941	0	Enseñanza y formación en transporte y almacenamiento
+2009	220	22010	103	2870498	2870498	0	Política de comunicaciones y gestión administrativa
+2009	220	22020	53	-334433	1549441	1883874	Telecomunicaciones
+2009	220	22030	61	5304041	5648679	344638	Radio, televisión, prensa
+2009	220	22040	116	3225599	3225599	0	Tecnologías de la información y de la comunicación (TIC)
+2009	230	23010	145	19099032	20665858	1566826	Política energética y gestión administrativa
+2009	230	23020	52	16945451	16945451	0	Producción energética: fuentes no renovables
+2009	230	23030	82	38451226	38451226	0	Producción energética: fuentes renovables
+2009	230	23040	59	20722635	25518671	4796036	Transmisión / distribución de energía eléctrica
+2009	230	23050	7	10593645	10593645	0	Distribución de gas
+2009	230	23061	1	-2092424	0	2092424	Centrales térmicas de petróleo
+2009	230	23062	2	1900342	1900342	0	Centrales térmicas de gas
+2009	230	23063	2	1168	1168	0	Centrales térmicas de carbón
+2009	230	23064	17	4688707	4688707	0	Centrales nucleares
+2009	230	23065	16	2357918	2357918	0	Centrales hidroeléctricas
+2009	230	23066	2	10356	10356	0	Energía geotérmica
+2009	230	23067	45	60731300	61202300	471000	Energía solar
+2009	230	23068	22	127904385	128694867	790482	Energía eólica
+2009	230	23070	29	658956	658956	0	Biomasa
+2009	230	23081	22	352362	352362	0	Educación, formación en temas energéticos
+2009	230	23082	26	413327	413327	0	Investigación energética
+2009	240	24010	82	11890478	11890478	0	Política financiera y gestión administrativa
+2009	240	24020	9	41169	41169	0	Instituciones monetarias
+2009	240	24030	49	19760627	29881348	10120721	Intermediarios financieros del sector formal
+2009	240	24040	173	-116424290	46783375	163207665	Intermediarios financieros semi-formales, informales
+2009	240	24081	88	1453633	1453633	0	Enseñanza / formación en banca y servicios financieros
+2009	250	25010	246	48832594	48832594	0	Servicios e instituciones de apoyo a la empresa
+2009	250	25020	32	2926956	2926956	0	Privatizaciones
+2009	311	31110	253	58167473	58167473	0	Política agraria y gestión administrativa
+2009	311	31120	338	33228236	33228236	0	Desarrollo agrario
+2009	311	31130	34	1827474	1827474	0	Tierras cultivables
+2009	311	31140	147	13784017	13784017	0	Recursos hídricos para uso agrícola
+2009	311	31150	18	2182509	2182509	0	Insumos agrícolas
+2009	311	31161	227	28545209	28545209	0	Producción de alimentos agrícolas
+2009	311	31162	88	10144584	10144584	0	Cultivos industriales destinados a la exportación
+2009	311	31163	158	7359879	7359879	0	Ganadería
+2009	311	31164	12	851529	851529	0	Reforma agraria
+2009	311	31165	20	3360320	3360320	0	Desarrollo agrario alternativo
+2009	311	31166	64	7233034	7233034	0	Extensión agraria.
+2009	311	31181	101	5472197	5472197	0	Enseñanza / formación agraria
+2009	311	31182	183	10544593	10544593	0	Investigación agraria.
+2009	311	31191	63	5574633	5574633	0	Servicios agrícolas
+2009	311	31192	13	324738	324738	0	Protec. plantas y cosechas recogidas y lucha c. plagas
+2009	311	31193	26	2127959	2127959	0	Servicios financieros agrícolas
+2009	311	31194	126	9689170	9689170	0	Cooperativas agrícolas
+2009	311	31195	27	1006150	1006150	0	Servicios veterinarios
+2009	312	31210	74	4882269	4882269	0	Política forestal y gestión administrativa
+2009	312	31220	66	3049807	3049807	0	Desarrollo forestal
+2009	312	31261	10	554536	554536	0	Producción de carbón vegetal / leña
+2009	312	31281	12	483766	483766	0	Educación, formación forestal
+2009	312	31282	46	1009397	1009397	0	Investigación en silvicultura
+2009	312	31291	12	304948	304948	0	Servicios forestales
+2009	313	31310	71	9732200	9732200	0	Política pesquera y gestión administrativa
+2009	313	31320	95	7220327	10723253	3502926	Desarrollo pesquero
+2009	313	31381	18	1083811	1083811	0	Educación, formación pesquera
+2009	313	31382	27	-1091728	609414	1701142	Investigación pesquera
+2009	313	31391	7	7259887	7259887	0	Servicios pesqueros
+2009	321	32110	57	3649958	3649958	0	Política industrial y gestión administrativa
+2009	321	32120	35	4545343	4605184	59841	Desarrollo industrial
+2009	321	32130	204	15800557	17086203	1285646	Desarrollo de PYMES
+2009	321	32140	55	3374096	3374096	0	Industria artesanal
+2009	321	32161	99	4023176	5784984	1761808	Agroindustrias
+2009	321	32162	5	150101	150101	0	Industrias forestales
+2009	321	32163	24	1079003	1079003	0	Textiles, piel y sustitutos
+2009	321	32164	5	-466105	13000	479105	Productos químicos
+2009	321	32165	2	454149	454149	0	Plantas de producción de fertilizantes
+2009	321	32167	2	6080	6080	0	Fabricación de productos energéticos
+2009	321	32168	14	104149	598409	494260	Producción farmacéutica
+2009	321	32169	6	198354	198354	0	Industria metalúrgica básica
+2009	321	32171	9	607961	607961	0	Construcción mecánica y eléctrica
+2009	321	32172	1	0	0	0	Material de transporte
+2009	321	32182	170	4849382	4849382	0	Investigación y desarrollo tecnológico
+2009	322	32210	35	4191466	4191466	0	Política de las industrias extractivas y gestión administrativa
+2009	322	32220	27	2153926	2153926	0	Prospección de minerales y exploración
+2009	322	32261	3	307495	307495	0	Carbón
+2009	322	32262	21	1001736	1001736	0	Petróleo y gas
+2009	322	32263	1	13500	13500	0	Metales ferrosos
+2009	322	32264	2	67564	67564	0	Metales no ferrosos
+2009	322	32265	4	20433	20433	0	Metales / minerales preciosos
+2009	322	32266	4	107865	107865	0	Minerales industriales
+2009	322	32267	1	11250	11250	0	Fertilizantes minerales
+2009	323	32310	45	1350242	1350242	0	Política de construcción y gestión administrativa
+2009	331	33110	171	8537827	8537827	0	Política comercial y gestión administrativa
+2009	331	33120	88	3113105	3113105	0	Fomento del comercio
+2009	331	33130	40	1628114	1628114	0	Acuerdos comerciales regionales
+2009	331	33140	8	679688	679688	0	Negociaciones comerciales multilaterales
+2009	331	33150	16	1597106	1597106	0	Ajustes vinculados al comercio
+2009	331	33181	27	2959889	2959889	0	Educación / formación comercial
+2009	332	33210	188	7524028	7524028	0	Política turística y gestión administrativa
+2009	410	41010	346	80023030	80023030	0	Política medioambiental y gestión administrativa
+2009	410	41020	68	8660096	8660096	0	Protección de la biosfera
+2009	410	41030	159	15460842	15460842	0	Biodiversidad
+2009	410	41040	183	18825438	18825438	0	Protección del patrimonio histórico, artístico y arqueológico
+2009	410	41050	46	1234494	1234494	0	Control / prevención de inundaciones
+2009	410	41081	93	3132649	3132649	0	Educación / formación medioambiental
+2009	410	41082	145	3719549	3719549	0	Investigación medioambiental
+2009	430	43010	519	128358507	128441468	82961	Ayuda multisectorial
+2009	430	43030	206	20839371	22217054	1377683	Desarrollo y gestión urbanos
+2009	430	43040	405	65453127	65453127	0	Desarrollo rural
+2009	430	43050	6	317893	317893	0	Desarrollo alternativo no agrario
+2009	430	43081	758	17993239	17993239	0	Enseñanza / formación multisectoriales
+2009	430	43082	124	5933548	6164765	231217	Instituciones científicas y de investigación
+2009	510	51010	116	91419054	91419054	0	Apoyo presupuestario general
+2009	520	52010	282	208185343	208185343	0	Ayuda Alimentaria / Programas de seguridad alimentaria
+2009	530	53030	8	10373830	10373830	0	Apoyo a la importación (bienes de equipo)
+2009	600	60020	24	65678754	65678754	0	Condonación de deuda
+2009	600	60030	8	50061852	50061852	0	Alivio de la deuda multilateral
+2009	600	60040	3	5579375	5579375	0	Reestructuración y refinanciación
+2009	600	60061	4	4535443	42669326	38133883	Canje de deuda por proyectos de desarrollo
+2009	720	72010	896	162893798	171227131	8333333	Ayuda y servicios materiales de emergencia
+2009	720	72040	336	177213049	177213049	0	Ayuda alimentaria de emergencia
+2009	720	72050	80	17743000	17743000	0	Coordinación de los servicios de protección de la ayuda
+2009	730	73010	236	87408225	87408225	0	Ayuda a la reconstrucción y rehabilitación
+2009	740	74010	239	19778761	19778761	0	Prevención de desastres
+2009	910	91010	523	187563901	187563901	0	Costes administrativos
+2009	930	93010	113	28435153	28435153	0	Ayuda a refugiados en el país donante
+2009	998	99810	499	160826628	162675923	1849295	Sectores no especificados
+2009	998	99820	2416	63303063	63303063	0	Sensibilización sobre los problemas rel. con el desarrollo
+2010	111	11110	396	82459297	82459297	0	Política educativa y gestión administrativa
+2010	111	11120	424	32112079	33974859	1862780	Servicios e instalaciones educativas y formación
+2010	111	11130	117	4655639	4655639	0	Formación de profesores
+2010	111	11182	106	8647910	8647910	0	Investigación educativa
+2010	112	11220	561	112083126	112083126	0	Educación primaria
+2010	112	11230	335	13729455	13729455	0	Capacitación básica de jóvenes y adultos
+2010	112	11240	207	5113474	5113474	0	Educación primera infancia
+2010	113	11320	175	13749060	13749060	0	Educación secundaria
+2010	113	11330	357	31451537	35143278	3691741	Formación profesional
+2010	114	11420	773	46417617	46417617	0	Educación universitaria
+2010	114	11430	102	6002937	6929982	927045	Formación superior técnica y de dirección
+2010	121	12110	379	66585092	66585092	0	Política sanitaria y gestión administrativa
+2010	121	12181	68	-1407203	3550668	4957871	Enseñanza y formación médicas
+2010	121	12182	242	8053207	8848176	794969	Investigación médica
+2010	121	12191	219	12224820	12224820	0	Servicios médicos
+2010	122	12220	568	53170620	53170620	0	Atención sanitaria básica
+2010	122	12230	198	14864174	24191241	9327067	Infraestructura sanitaria básica
+2010	122	12240	349	19961502	19961502	0	Nutrición básica
+2010	122	12250	172	18888956	18888956	0	Control de enfermedades infecciosas
+2010	122	12261	92	3496419	3496419	0	Educación sanitaria
+2010	122	12262	133	44839924	44839924	0	Control de la malaria
+2010	122	12263	100	13492356	13492356	0	Control de la tuberculosis
+2010	122	12281	79	6350421	6350421	0	Formación personal sanitario
+2010	130	13010	263	10678609	12124463	1445854	Política sobre población y gestión administrativa
+2010	130	13020	438	42002754	42059842	57088	Atención a la salud reproductiva
+2010	130	13030	23	8027596	8027596	0	Planificación familiar
+2010	130	13040	645	60174891	60174891	0	Lucha contra las ETS (Enf. Trans. Sexual), incluido el SIDA
+2010	130	13081	36	1641172	1641172	0	Formación de personal para población y salud reproductiva
+2010	140	14010	260	31577314	31577314	0	Política de recursos hídricos y gestión administrativa
+2010	140	14015	75	3215613	3914672	699059	Protección recursos hídricos
+2010	140	14020	239	142821596	142821596	0	Abastecimiento y depuración de agua-sistemas de envergadura
+2010	140	14021	41	11178741	11178741	0	Suministro de agua-sistema de envergadura
+2010	140	14022	22	1805615	1805615	0	Depuración de agua-sistema de envergadura
+2010	140	14030	335	67549192	67587833	38641	Abastecimiento básico de agua potable y saneamiento básico
+2010	140	14031	155	3989646	7854703	3865057	Abastecimiento básico de agua potable
+2010	140	14032	58	13969850	14441253	471403	Saneamiento básico
+2010	140	14040	47	10811369	10811369	0	Desarrollo cuencas fluviales
+2010	140	14050	126	7701417	9811052	2109635	Eliminación / tratamiento residuos sólidos
+2010	140	14081	19	812437	812437	0	Educación y formación en abastecimiento de agua y saneamiento
+2010	151	15110	1173	121215405	121913045	697640	Política de administración y gestión del sector público
+2010	151	15111	267	23418695	23418695	0	Gestión financiera del sector público
+2010	151	15112	449	40342896	40342896	0	Descentralización y apoyo a los gobiernos regionales y locales
+2010	151	15113	56	1055515	1055515	0	Organizaciones de lucha contra la corrupción de las instituciones
+2010	151	15130	485	30534034	30534034	0	Desarrollo legal y judicial
+2010	151	15150	675	46024690	46024690	0	Fortalecimiento de la sociedad civil
+2010	151	15151	153	19312266	19312266	0	Procesos electorales
+2010	151	15152	40	2298558	2298558	0	Legislaturas y partidos políticos
+2010	151	15153	165	2736275	2736275	0	Medios de comunicación y el libre flujo de información
+2010	151	15170	697	108949033	118949033	10000000	Organizaciones e instit. de la igualdad de las mujeres
+2010	152	15210	92	24539225	24539225	0	Gestión y reforma de los sistemas de seguridad
+2010	152	15220	210	28929119	28929119	0	Construcción de la paz y prevención de conflictos
+2010	152	15230	38	25398659	25398659	0	Procesos de consolidación de la paz tras conflictos (NNUU)
+2010	152	15240	20	1708799	1708799	0	Desmovilización y control de la prolif. armas ligeras (SALW)
+2010	152	15250	78	4985050	4985050	0	Retirada de minas antipersonas
+2010	152	15261	24	1546349	1546349	0	Niños soldados: prevención y desmovilización
+2010	160	16010	626	61623382	61623382	0	Seguridad social, servicios sociales
+2010	160	16020	368	35398144	35398144	0	Política de empleo y gestión administrativa
+2010	160	16030	41	2396263	2396263	0	Política de vivienda y gestión administrativa
+2010	160	16040	124	7760797	7760797	0	Viviendas de bajo coste
+2010	160	16050	366	56679254	56679254	0	Ayuda multisectorial para servicios sociales básicos
+2010	160	16061	864	50647676	50647676	0	Cultura y ocio
+2010	160	16062	124	2019987	2019987	0	Capacitación estadística
+2010	160	16063	32	929696	929696	0	Control de estupefacientes
+2010	160	16064	102	3048945	3048945	0	Mitigación social del VIH / SIDA
+2010	210	21010	159	27921658	28727540	805882	Política de transportes y gestión administrativa
+2010	210	21020	285	67608137	70093746	2485609	Transporte por carretera
+2010	210	21030	55	64593260	65179934	586674	Transporte por ferrocarril
+2010	210	21040	68	5754152	5870401	116249	Transporte marítimo y fluvial
+2010	210	21050	59	2203206	3124439	921233	Transporte aéreo
+2010	210	21061	3	160467	160467	0	Almacenamiento
+2010	210	21081	6	47353	47353	0	Enseñanza y formación en transporte y almacenamiento
+2010	220	22010	77	1595031	1971463	376432	Política de comunicaciones y gestión administrativa
+2010	220	22020	82	1743435	2686870	943435	Telecomunicaciones
+2010	220	22030	48	2778316	3140663	362347	Radio, televisión, prensa
+2010	220	22040	169	7922603	8583415	660812	Tecnologías de la información y de la comunicación (TIC)
+2010	230	23010	177	14234551	14234551	0	Política energética y gestión administrativa
+2010	230	23020	60	14713472	14713472	0	Producción energética: fuentes no renovables
+2010	230	23030	126	33907879	33907879	0	Producción energética: fuentes renovables
+2010	230	23040	77	8799355	12655471	3856116	Transmisión / distribución de energía eléctrica
+2010	230	23050	9	1408410	1408410	0	Distribución de gas
+2010	230	23061	1	30980	30980	0	Centrales térmicas de petróleo
+2010	230	23063	8	294119	294119	0	Centrales térmicas de carbón
+2010	230	23064	22	4026971	4026971	0	Centrales nucleares
+2010	230	23065	10	107504	107504	0	Centrales hidroeléctricas
+2010	230	23066	5	-1183929	1016016	2199945	Energía geotérmica
+2010	230	23067	57	49781930	49781930	0	Energía solar
+2010	230	23068	30	112348482	113471483	1123001	Energía eólica
+2010	230	23070	22	756528	756528	0	Biomasa
+2010	230	23081	35	680956	680956	0	Educación, formación en temas energéticos
+2010	230	23082	23	837439	837439	0	Investigación energética
+2010	240	24010	150	28624210	28624210	0	Política financiera y gestión administrativa
+2010	240	24020	8	64906	64906	0	Instituciones monetarias
+2010	240	24030	57	43464945	54737900	11272955	Intermediarios financieros del sector formal
+2010	240	24040	150	15349354	25389179	10039825	Intermediarios financieros semi-formales, informales
+2010	240	24081	77	1435167	1435167	0	Enseñanza / formación en banca y servicios financieros
+2010	250	25010	231	104685559	104685559	0	Servicios e instituciones de apoyo a la empresa
+2010	250	25020	37	747149	747149	0	Privatizaciones
+2010	311	31110	199	313746885	313746885	0	Política agraria y gestión administrativa
+2010	311	31120	358	42398142	42398142	0	Desarrollo agrario
+2010	311	31130	40	1218884	1218884	0	Tierras cultivables
+2010	311	31140	187	13582849	13582849	0	Recursos hídricos para uso agrícola
+2010	311	31150	34	2764153	2764153	0	Insumos agrícolas
+2010	311	31161	236	33147088	33147088	0	Producción de alimentos agrícolas
+2010	311	31162	75	4862919	4862919	0	Cultivos industriales destinados a la exportación
+2010	311	31163	132	6948034	6948034	0	Ganadería
+2010	311	31164	10	737751	737751	0	Reforma agraria
+2010	311	31165	38	3218039	3218039	0	Desarrollo agrario alternativo
+2010	311	31166	86	3721562	3721562	0	Extensión agraria.
+2010	311	31181	73	4297981	4297981	0	Enseñanza / formación agraria
+2010	311	31182	158	7232834	7232834	0	Investigación agraria.
+2010	311	31191	78	2498523	2498523	0	Servicios agrícolas
+2010	311	31192	20	232262	232262	0	Protec. plantas y cosechas recogidas y lucha c. plagas
+2010	311	31193	23	155736	155736	0	Servicios financieros agrícolas
+2010	311	31194	100	8729688	8729688	0	Cooperativas agrícolas
+2010	311	31195	62	3640053	3640053	0	Servicios veterinarios
+2010	312	31210	90	3082236	3082236	0	Política forestal y gestión administrativa
+2010	312	31220	69	17029953	17029953	0	Desarrollo forestal
+2010	312	31261	3	15545	15545	0	Producción de carbón vegetal / leña
+2010	312	31281	47	1192472	1192472	0	Educación, formación forestal
+2010	312	31282	21	856382	856382	0	Investigación en silvicultura
+2010	312	31291	6	146003	146003	0	Servicios forestales
+2010	313	31310	49	4286820	4286820	0	Política pesquera y gestión administrativa
+2010	313	31320	89	2944849	6627775	3682926	Desarrollo pesquero
+2010	313	31381	20	6576417	6576417	0	Educación, formación pesquera
+2010	313	31382	33	5201558	6990114	1788556	Investigación pesquera
+2010	313	31391	8	535116	535116	0	Servicios pesqueros
+2010	321	32110	106	4630541	4630541	0	Política industrial y gestión administrativa
+2010	321	32120	40	1636372	1636372	0	Desarrollo industrial
+2010	321	32130	222	17132223	17803516	671293	Desarrollo de PYMES
+2010	321	32140	33	2875426	2875426	0	Industria artesanal
+2010	321	32161	113	5479255	7039119	1559864	Agroindustrias
+2010	321	32162	6	448897	448897	0	Industrias forestales
+2010	321	32163	26	536214	536214	0	Textiles, piel y sustitutos
+2010	321	32164	2	-500029	0	500029	Productos químicos
+2010	321	32165	2	63242	63242	0	Plantas de producción de fertilizantes
+2010	321	32166	3	40650	40650	0	Cemento, cal, yeso
+2010	321	32167	2	19746	19746	0	Fabricación de productos energéticos
+2010	321	32168	12	21820	541477	519657	Producción farmacéutica
+2010	321	32171	14	781931	781931	0	Construcción mecánica y eléctrica
+2010	321	32172	5	-2687125	61667	2748792	Material de transporte
+2010	321	32182	160	7596850	7790602	193752	Investigación y desarrollo tecnológico
+2010	322	32210	39	3838008	3838008	0	Política de las industrias extractivas y gestión administrativa
+2010	322	32220	16	862968	862968	0	Prospección de minerales y exploración
+2010	322	32261	5	361423	361423	0	Carbón
+2010	322	32262	19	1628719	1652312	23593	Petróleo y gas
+2010	322	32263	1	5000	5000	0	Metales ferrosos
+2010	322	32265	5	20327	20327	0	Metales / minerales preciosos
+2010	322	32266	2	298	298	0	Minerales industriales
+2010	322	32267	1	14250	14250	0	Fertilizantes minerales
+2010	323	32310	27	3680780	3680780	0	Política de construcción y gestión administrativa
+2010	331	33110	156	7529536	7530452	916	Política comercial y gestión administrativa
+2010	331	33120	116	2986647	2986647	0	Fomento del comercio
+2010	331	33130	40	3054427	3054427	0	Acuerdos comerciales regionales
+2010	331	33140	16	1287129	1287129	0	Negociaciones comerciales multilaterales
+2010	331	33150	22	2090622	2090622	0	Ajustes vinculados al comercio
+2010	331	33181	40	2103086	2103086	0	Educación / formación comercial
+2010	332	33210	147	7117087	7117087	0	Política turística y gestión administrativa
+2010	410	41010	492	47557898	47557898	0	Política medioambiental y gestión administrativa
+2010	410	41020	104	65122275	65122275	0	Protección de la biosfera
+2010	410	41030	150	11288449	11288449	0	Biodiversidad
+2010	410	41040	159	12220076	12220076	0	Protección del patrimonio histórico, artístico y arqueológico
+2010	410	41050	46	2914862	2914862	0	Control / prevención de inundaciones
+2010	410	41081	101	2737393	2737393	0	Educación / formación medioambiental
+2010	410	41082	174	3701031	3701031	0	Investigación medioambiental
+2010	430	43010	672	117188795	117332244	143449	Ayuda multisectorial
+2010	430	43030	164	8283475	12097693	3814218	Desarrollo y gestión urbanos
+2010	430	43040	412	95203006	95203006	0	Desarrollo rural
+2010	430	43050	8	222358	222358	0	Desarrollo alternativo no agrario
+2010	430	43081	513	8849707	8849707	0	Enseñanza / formación multisectoriales
+2010	430	43082	124	7740225	7740225	0	Instituciones científicas y de investigación
+2010	510	51010	132	99774214	99774214	0	Apoyo presupuestario general
+2010	520	52010	239	48132041	48132041	0	Ayuda Alimentaria / Programas de seguridad alimentaria
+2010	530	53030	32	23948574	23948574	0	Apoyo a la importación (bienes de equipo)
+2010	600	60010	1	13000	13000	0	Actividades relacionadas con la deuda
+2010	600	60020	29	264574796	265003559	428763	Condonación de deuda
+2010	600	60030	9	27267419	27267419	0	Alivio de la deuda multilateral
+2010	600	60040	2	220903	220903	0	Reestructuración y refinanciación
+2010	600	60061	7	6209002	76539322	70330320	Canje de deuda por proyectos de desarrollo
+2010	720	72010	1152	177880775	186214108	8333333	Ayuda y servicios materiales de emergencia
+2010	720	72040	393	92085465	92085465	0	Ayuda alimentaria de emergencia
+2010	720	72050	230	17108733	17108733	0	Coordinación de los servicios de protección de la ayuda
+2010	730	73010	222	51705458	51705458	0	Ayuda a la reconstrucción y rehabilitación
+2010	740	74010	359	17318439	17318439	0	Prevención de desastres
+2010	910	91010	554	185527678	185527678	0	Costes administrativos
+2010	930	93010	131	28036880	28036880	0	Ayuda a refugiados en el país donante
+2010	998	99810	554	10260197	116045831	105785634	Sectores no especificados
+2010	998	99820	2268	70468190	70468190	0	Sensibilización sobre los problemas rel. con el desarrollo
+2011	111	11110	402	87830815	87830815	0	Política educativa y gestión administrativa
+2011	111	11120	367	31013973	33070308	2056335	Servicios e instalaciones educativas y formación
+2011	111	11130	86	4489969	4489969	0	Formación de profesores
+2011	111	11182	140	2748955	2748955	0	Investigación educativa
+2011	112	11220	462	45661635	45661635	0	Educación primaria
+2011	112	11230	245	8226693	8226693	0	Capacitación básica de jóvenes y adultos
+2011	112	11240	176	2392158	2392158	0	Educación primera infancia
+2011	113	11320	121	9706502	9706502	0	Educación secundaria
+2011	113	11330	344	25640389	27843216	2202827	Formación profesional
+2011	114	11420	788	55881499	56125505	244006	Educación universitaria
+2011	114	11430	119	7319778	8445295	1125517	Formación superior técnica y de dirección
+2011	121	12110	327	61267038	61267038	0	Política sanitaria y gestión administrativa
+2011	121	12181	67	187274	2829978	2642704	Enseñanza y formación médicas
+2011	121	12182	231	5264605	6021878	757273	Investigación médica
+2011	121	12191	128	2186980	5930466	3743486	Servicios médicos
+2011	122	12220	519	41033538	41033538	0	Atención sanitaria básica
+2011	122	12230	216	636861	9031396	8394535	Infraestructura sanitaria básica
+2011	122	12240	340	13663175	13663175	0	Nutrición básica
+2011	122	12250	136	16844553	16844553	0	Control de enfermedades infecciosas
+2011	122	12261	96	1720901	1720901	0	Educación sanitaria
+2011	122	12262	70	2402981	2402981	0	Control de la malaria
+2011	122	12263	22	583533	583533	0	Control de la tuberculosis
+2011	122	12281	81	6064162	6064162	0	Formación personal sanitario
+2011	130	13010	267	7325487	8305911	980424	Política sobre población y gestión administrativa
+2011	130	13020	376	18439350	18493731	54381	Atención a la salud reproductiva
+2011	130	13030	12	664442	664442	0	Planificación familiar
+2011	130	13040	511	11719579	11719579	0	Lucha contra las ETS (Enf. Trans. Sexual), incluido el SIDA
+2011	130	13081	26	1231196	1231196	0	Formación de personal para población y salud reproductiva
+2011	140	14010	197	14938175	14938175	0	Política de recursos hídricos y gestión administrativa
+2011	140	14015	63	1565196	2237293	672097	Protección recursos hídricos
+2011	140	14020	201	59780052	62169305	2389253	Abastecimiento y depuración de agua-sistemas de envergadura
+2011	140	14021	130	2110419	5852875	3742456	Suministro de agua-sistema de envergadura
+2011	140	14022	41	1837457	1926124	88667	Depuración de agua-sistema de envergadura
+2011	140	14030	359	28844459	28918077	73618	Abastecimiento básico de agua potable y saneamiento básico
+2011	140	14031	111	-5320210	3480141	8800351	Abastecimiento básico de agua potable
+2011	140	14032	64	6925031	7374082	449051	Saneamiento básico
+2011	140	14040	43	1949785	1949785	0	Desarrollo cuencas fluviales
+2011	140	14050	125	1857585	5029326	3171741	Eliminación / tratamiento residuos sólidos
+2011	140	14081	34	1748454	1748454	0	Educación y formación en abastecimiento de agua y saneamiento
+2011	151	15110	871	86926993	88687398	1760405	Política de administración y gestión del sector público
+2011	151	15111	246	31079514	31079514	0	Gestión financiera del sector público
+2011	151	15112	404	40967829	40967829	0	Descentralización y apoyo a los gobiernos regionales y locales
+2011	151	15113	69	1185018	1185018	0	Organizaciones de lucha contra la corrupción de las instituciones
+2011	151	15130	427	24056111	24056111	0	Desarrollo legal y judicial
+2011	151	15150	685	44280497	44280497	0	Fortalecimiento de la sociedad civil
+2011	151	15151	150	12706013	12706013	0	Procesos electorales
+2011	151	15152	100	3891241	3891241	0	Legislaturas y partidos políticos
+2011	151	15153	196	2118244	2118244	0	Medios de comunicación y el libre flujo de información
+2011	151	15170	553	60126637	60126637	0	Organizaciones e instit. de la igualdad de las mujeres
+2011	152	15210	106	29603446	29603446	0	Gestión y reforma de los sistemas de seguridad
+2011	152	15220	177	27902847	27902847	0	Construcción de la paz y prevención de conflictos
+2011	152	15230	29	38325080	38325080	0	Procesos de consolidación de la paz tras conflictos (NNUU)
+2011	152	15240	25	1953302	1953302	0	Desmovilización y control de la prolif. armas ligeras (SALW)
+2011	152	15250	78	5502164	5502164	0	Retirada de minas antipersonas
+2011	152	15261	19	464836	464836	0	Niños soldados: prevención y desmovilización
+2011	160	16010	552	49732429	49732429	0	Seguridad social, servicios sociales
+2011	160	16020	263	23725627	23752036	26409	Política de empleo y gestión administrativa
+2011	160	16030	38	2482056	2482056	0	Política de vivienda y gestión administrativa
+2011	160	16040	92	3195503	3195503	0	Viviendas de bajo coste
+2011	160	16050	306	29199121	29199121	0	Ayuda multisectorial para servicios sociales básicos
+2011	160	16061	993	50732243	50732243	0	Cultura y ocio
+2011	160	16062	176	3943787	3943787	0	Capacitación estadística
+2011	160	16063	32	1428518	1428518	0	Control de estupefacientes
+2011	160	16064	106	2869032	2869032	0	Mitigación social del VIH / SIDA
+2011	210	21010	153	11600448	12368117	767669	Política de transportes y gestión administrativa
+2011	210	21020	243	66311580	69802892	3491312	Transporte por carretera
+2011	210	21030	45	30164930	32436764	2271834	Transporte por ferrocarril
+2011	210	21040	56	-2413470	3891791	6305261	Transporte marítimo y fluvial
+2011	210	21050	62	511899	4314575	3802676	Transporte aéreo
+2011	210	21061	4	85710	85710	0	Almacenamiento
+2011	210	21081	8	253748	253748	0	Enseñanza y formación en transporte y almacenamiento
+2011	220	22010	87	856176	1214758	358582	Política de comunicaciones y gestión administrativa
+2011	220	22020	49	933768	1867325	933557	Telecomunicaciones
+2011	220	22030	56	132250	477416	345166	Radio, televisión, prensa
+2011	220	22040	125	5504827	6134305	629478	Tecnologías de la información y de la comunicación (TIC)
+2011	230	23010	178	15101671	15101671	0	Política energética y gestión administrativa
+2011	230	23020	44	3413799	3413799	0	Producción energética: fuentes no renovables
+2011	230	23030	104	5124413	5124413	0	Producción energética: fuentes renovables
+2011	230	23040	138	9473333	14160250	4686917	Transmisión / distribución de energía eléctrica
+2011	230	23050	12	792293	792293	0	Distribución de gas
+2011	230	23061	2	30133	30133	0	Centrales térmicas de petróleo
+2011	230	23062	2	8312	8312	0	Centrales térmicas de gas
+2011	230	23063	8	285033	285033	0	Centrales térmicas de carbón
+2011	230	23064	22	2915013	2915013	0	Centrales nucleares
+2011	230	23065	23	2527346	2527346	0	Centrales hidroeléctricas
+2011	230	23066	2	-1948259	147370	2095629	Energía geotérmica
+2011	230	23067	42	4781491	4781491	0	Energía solar
+2011	230	23068	22	63203241	65709346	2506105	Energía eólica
+2011	230	23069	1	1685	1685	0	Energía maremotriz
+2011	230	23070	22	548944	548944	0	Biomasa
+2011	230	23081	24	-1279141	348012	1627153	Educación, formación en temas energéticos
+2011	230	23082	18	174915	174915	0	Investigación energética
+2011	240	24010	105	5904790	5904790	0	Política financiera y gestión administrativa
+2011	240	24020	14	298449	298449	0	Instituciones monetarias
+2011	240	24030	100	10733509	36187536	25454027	Intermediarios financieros del sector formal
+2011	240	24040	106	2485470	2485470	0	Intermediarios financieros semi-formales, informales
+2011	240	24081	91	1559031	1559031	0	Enseñanza / formación en banca y servicios financieros
+2011	250	25010	262	26034774	26034774	0	Servicios e instituciones de apoyo a la empresa
+2011	250	25020	24	1159048	1159048	0	Privatizaciones
+2011	311	31110	188	41638127	41638127	0	Política agraria y gestión administrativa
+2011	311	31120	385	40922354	41010061	87707	Desarrollo agrario
+2011	311	31130	61	1837339	1837339	0	Tierras cultivables
+2011	311	31140	122	9816423	10402638	586215	Recursos hídricos para uso agrícola
+2011	311	31150	31	4899525	4899525	0	Insumos agrícolas
+2011	311	31161	166	24481697	24481697	0	Producción de alimentos agrícolas
+2011	311	31162	58	4272947	4272947	0	Cultivos industriales destinados a la exportación
+2011	311	31163	88	2802339	2802339	0	Ganadería
+2011	311	31164	10	57323	57323	0	Reforma agraria
+2011	311	31165	47	2690997	2690997	0	Desarrollo agrario alternativo
+2011	311	31166	48	1690789	1690789	0	Extensión agraria.
+2011	311	31181	102	4150994	4150994	0	Enseñanza / formación agraria
+2011	311	31182	209	10155319	10155319	0	Investigación agraria.
+2011	311	31191	58	1404275	1404275	0	Servicios agrícolas
+2011	311	31192	24	450984	450984	0	Protec. plantas y cosechas recogidas y lucha c. plagas
+2011	311	31193	19	1869048	1869048	0	Servicios financieros agrícolas
+2011	311	31194	85	4521278	4521278	0	Cooperativas agrícolas
+2011	311	31195	72	1851833	1851833	0	Servicios veterinarios
+2011	312	31210	70	5711855	5711855	0	Política forestal y gestión administrativa
+2011	312	31220	64	1388155	1388155	0	Desarrollo forestal
+2011	312	31261	4	15991	15991	0	Producción de carbón vegetal / leña
+2011	312	31281	22	468927	468927	0	Educación, formación forestal
+2011	312	31282	13	456755	456755	0	Investigación en silvicultura
+2011	312	31291	13	233727	233727	0	Servicios forestales
+2011	313	31310	74	4364393	4364393	0	Política pesquera y gestión administrativa
+2011	313	31320	81	3377249	6885541	3508292	Desarrollo pesquero
+2011	313	31381	20	4093459	4093459	0	Educación, formación pesquera
+2011	313	31382	25	-922125	781623	1703748	Investigación pesquera
+2011	313	31391	9	210633	210633	0	Servicios pesqueros
+2011	321	32110	28	2479117	2479117	0	Política industrial y gestión administrativa
+2011	321	32120	58	1819606	1819606	0	Desarrollo industrial
+2011	321	32130	187	155150812	155225862	75050	Desarrollo de PYMES
+2011	321	32140	20	1827524	1827524	0	Industria artesanal
+2011	321	32161	46	2305585	3792202	1486617	Agroindustrias
+2011	321	32162	6	101785	101785	0	Industrias forestales
+2011	321	32163	12	249238	249238	0	Textiles, piel y sustitutos
+2011	321	32164	10	-329878	149867	479745	Productos químicos
+2011	321	32165	1	9	9	0	Plantas de producción de fertilizantes
+2011	321	32167	2	4911	4911	0	Fabricación de productos energéticos
+2011	321	32168	1	-495017	0	495017	Producción farmacéutica
+2011	321	32171	24	392854	392854	0	Construcción mecánica y eléctrica
+2011	321	32172	9	-2848883	25696	2874579	Material de transporte
+2011	321	32182	159	3903203	4087768	184565	Investigación y desarrollo tecnológico
+2011	322	32210	43	1816291	1816291	0	Política de las industrias extractivas y gestión administrativa
+2011	322	32220	14	1173439	1173439	0	Prospección de minerales y exploración
+2011	322	32261	2	47600	47600	0	Carbón
+2011	322	32262	18	322545	367494	44949	Petróleo y gas
+2011	322	32263	2	2920	2920	0	Metales ferrosos
+2011	322	32265	6	19914	19914	0	Metales / minerales preciosos
+2011	322	32266	3	100081	100081	0	Minerales industriales
+2011	322	32268	2	55815	55815	0	Recursos minerales en fondos marinos
+2011	323	32310	29	380759	380759	0	Política de construcción y gestión administrativa
+2011	331	33110	134	8125879	8125879	0	Política comercial y gestión administrativa
+2011	331	33120	122	6219060	6219060	0	Fomento del comercio
+2011	331	33130	33	857360	857360	0	Acuerdos comerciales regionales
+2011	331	33140	15	736093	736093	0	Negociaciones comerciales multilaterales
+2011	331	33150	20	4423273	4423273	0	Ajustes vinculados al comercio
+2011	331	33181	27	612237	612237	0	Educación / formación comercial
+2011	332	33210	111	4475466	4475466	0	Política turística y gestión administrativa
+2011	410	41010	354	35856610	35856610	0	Política medioambiental y gestión administrativa
+2011	410	41020	52	3120981	3120981	0	Protección de la biosfera
+2011	410	41030	131	7240321	7240321	0	Biodiversidad
+2011	410	41040	100	5681729	5681729	0	Protección del patrimonio histórico, artístico y arqueológico
+2011	410	41050	40	2176576	2176576	0	Control / prevención de inundaciones
+2011	410	41081	91	1757031	1757031	0	Educación / formación medioambiental
+2011	410	41082	148	3422034	3422034	0	Investigación medioambiental
+2011	430	43010	785	98972472	99055560	83088	Ayuda multisectorial
+2011	430	43030	160	6034983	10599158	4564175	Desarrollo y gestión urbanos
+2011	430	43040	345	57425428	57425428	0	Desarrollo rural
+2011	430	43050	8	22091	22091	0	Desarrollo alternativo no agrario
+2011	430	43081	358	12367917	12367917	0	Enseñanza / formación multisectoriales
+2011	430	43082	278	12114039	12223764	109725	Instituciones científicas y de investigación
+2011	510	51010	111	123462160	123462160	0	Apoyo presupuestario general
+2011	520	52010	193	34419685	34419685	0	Ayuda Alimentaria / Programas de seguridad alimentaria
+2011	530	53030	9	15701658	15972377	270719	Apoyo a la importación (bienes de equipo)
+2011	600	60010	2	1076793	1076793	0	Actividades relacionadas con la deuda
+2011	600	60020	17	52184519	52184519	0	Condonación de deuda
+2011	600	60030	18	39873610	39873610	0	Alivio de la deuda multilateral
+2011	600	60040	1	14374	14374	0	Reestructuración y refinanciación
+2011	600	60061	3	2199334.88	7941115.88	5741781	Canje de deuda por proyectos de desarrollo
+2011	720	72010	972	145952991	154286324	8333333	Ayuda y servicios materiales de emergencia
+2011	720	72040	400	80445590	80445590	0	Ayuda alimentaria de emergencia
+2011	720	72050	298	26125930	26125930	0	Coordinación de los servicios de protección de la ayuda
+2011	730	73010	196	35624111	35624111	0	Ayuda a la reconstrucción y rehabilitación
+2011	740	74010	369	18960285	18960285	0	Prevención de desastres
+2011	910	91010	435	180926865	180926865	0	Costes administrativos
+2011	930	93010	131	25118364	25118364	0	Ayuda a refugiados en el país donante
+2011	998	99810	695	53432702.96000001	142699880.96	89267178	Sectores no especificados
+2011	998	99820	1773	54736876	54736876	0	Sensibilización sobre los problemas rel. con el desarrollo
+2012	111	11110	55	15878467.76	15878467.76	0	Política educativa y gestión administrativa
+2012	111	11120	217	21772284.12000001	22333080.520000007	560796.4	Servicios e instalaciones educativas y formación
+2012	111	11130	78	3649294.059999999	3649294.059999999	0	Formación de profesores
+2012	111	11182	20	44555.829999999994	44555.829999999994	0	Investigación educativa
+2012	112	11220	140	10120495.75	10120495.75	0	Educación primaria
+2012	112	11230	122	3132499.2600000002	3132499.2600000002	0	Capacitación básica de jóvenes y adultos
+2012	112	11240	34	487858.62000000005	487858.62000000005	0	Educación primera infancia
+2012	113	11320	37	1473832.2500000002	1473832.2500000002	0	Educación secundaria
+2012	113	11330	122	13232019.84	14389077.03	1157057.19	Formación profesional
+2012	114	11420	520	12828790.91	12947826.91	119036	Educación universitaria
+2012	114	11430	28	273501.53	273501.53	0	Formación superior técnica y de dirección
+2012	121	12110	50	20647601.230000004	20647601.230000004	0	Política sanitaria y gestión administrativa
+2012	121	12181	46	-714326.09	272769.9100000001	987096	Enseñanza y formación médicas
+2012	121	12182	53	4355707.84	4355707.84	0	Investigación médica
+2012	121	12191	92	-57736.73000000007	2584527.27	2642264	Servicios médicos
+2012	122	12220	133	20825664.37	20825664.37	0	Atención sanitaria básica
+2012	122	12230	160	3697110.3599999985	4243176.1099999985	546065.75	Infraestructura sanitaria básica
+2012	122	12240	112	5431345.180000002	5431345.180000002	0	Nutrición básica
+2012	122	12250	31	2559294.3200000003	2559294.3200000003	0	Control de enfermedades infecciosas
+2012	122	12261	39	1068971.4900000002	1068971.4900000002	0	Educación sanitaria
+2012	122	12262	5	3013739.34	3013739.34	0	Control de la malaria
+2012	122	12281	17	595413.28	595413.28	0	Formación personal sanitario
+2012	130	13010	9	1361595.8599999999	1513400	151804.14	Política sobre población y gestión administrativa
+2012	130	13020	76	8136825.9399999995	8166239.01	29413.07	Atención a la salud reproductiva
+2012	130	13030	17	1315877.07	1315877.07	0	Planificación familiar
+2012	130	13040	22	477810.58999999997	477810.58999999997	0	Lucha contra las ETS (Enf. Trans. Sexual), incluido el SIDA
+2012	130	13081	12	1300756.04	1300756.04	0	Formación de personal para población y salud reproductiva
+2012	140	14010	42	3691741.960000001	3691741.960000001	0	Política de recursos hídricos y gestión administrativa
+2012	140	14015	13	494039.99	494039.99	0	Protección recursos hídricos
+2012	140	14020	32	1897381.1199999999	1897381.1199999999	0	Abastecimiento y depuración de agua-sistemas de envergadura
+2012	140	14021	14	521201.63999999996	521201.63999999996	0	Suministro de agua-sistema de envergadura
+2012	140	14022	9	1706941.47	1706941.47	0	Depuración de agua-sistema de envergadura
+2012	140	14030	97	6512711.97	6512711.97	0	Abastecimiento básico de agua potable y saneamiento básico
+2012	140	14031	107	2408258.7100000004	2525511.0900000003	117252.38	Abastecimiento básico de agua potable
+2012	140	14032	32	713403.31	713403.31	0	Saneamiento básico
+2012	140	14040	2	29821.8	29821.8	0	Desarrollo cuencas fluviales
+2012	140	14050	33	922189.15	1277662.02	355472.87	Eliminación / tratamiento residuos sólidos
+2012	140	14081	30	926243.0799999997	926243.0799999997	0	Educación y formación en abastecimiento de agua y saneamiento
+2012	151	15110	81	6121641.49	6168946.220000001	47304.73	Política de administración y gestión del sector público
+2012	151	15111	6	497353	497353	0	Gestión financiera del sector público
+2012	151	15112	97	10797293.500000004	10797293.500000004	0	Descentralización y apoyo a los gobiernos regionales y locales
+2012	151	15113	4	189400	189400	0	Organizaciones de lucha contra la corrupción de las instituciones
+2012	151	15130	43	6606068.340000001	6606068.340000001	0	Desarrollo legal y judicial
+2012	151	15150	135	17158085.23	17158085.23	0	Fortalecimiento de la sociedad civil
+2012	151	15151	2	1075000	1075000	0	Procesos electorales
+2012	151	15153	6	395600.99	395600.99	0	Medios de comunicación y el libre flujo de información
+2012	151	15170	341	28653856.000000004	28653856.000000004	0	Organizaciones e instit. de la igualdad de las mujeres
+2012	152	15210	5	1337559.74	1337559.74	0	Gestión y reforma de los sistemas de seguridad
+2012	152	15220	40	5835889.800000001	5835889.800000001	0	Construcción de la paz y prevención de conflictos
+2012	152	15230	23	33598803.06	33598803.06	0	Procesos de consolidación de la paz tras conflictos (NNUU)
+2012	152	15240	1	7642	7642	0	Desmovilización y control de la prolif. armas ligeras (SALW)
+2012	152	15250	2	120056	120056	0	Retirada de minas antipersonas
+2012	160	16010	98	5479188.889999998	5479188.889999998	0	Seguridad social, servicios sociales
+2012	160	16020	57	8211381.830000002	8239949.990000002	28568.16	Política de empleo y gestión administrativa
+2012	160	16030	10	540643.04	540643.04	0	Política de vivienda y gestión administrativa
+2012	160	16040	53	2365431.47	2365431.47	0	Viviendas de bajo coste
+2012	160	16050	159	10200220.009999998	10200220.009999998	0	Ayuda multisectorial para servicios sociales básicos
+2012	160	16061	80	15417952.090000002	15417952.090000002	0	Cultura y ocio
+2012	160	16062	4	787204.6099999999	787204.6099999999	0	Capacitación estadística
+2012	160	16063	1	16000	16000	0	Control de estupefacientes
+2012	160	16064	5	98259.98000000001	98259.98000000001	0	Mitigación social del VIH / SIDA
+2012	210	21010	5	101421.42000000004	516636.91000000003	415215.49	Política de transportes y gestión administrativa
+2012	210	21020	29	112640.08	387807.17	275167.08999999997	Transporte por carretera
+2012	210	21030	13	-225591.21	4000	229591.21	Transporte por ferrocarril
+2012	210	21040	11	474572	474572	0	Transporte marítimo y fluvial
+2012	210	21050	57	403231.0400000001	403231.0400000001	0	Transporte aéreo
+2012	210	21061	1	2500	2500	0	Almacenamiento
+2012	220	22010	6	524902.24	524902.24	0	Política de comunicaciones y gestión administrativa
+2012	220	22020	7	0	0	0	Telecomunicaciones
+2012	220	22030	7	50829.82000000002	237522.59000000003	186692.77	Radio, televisión, prensa
+2012	220	22040	52	57856.74999999976	680637.0499999998	622780.3	Tecnologías de la información y de la comunicación (TIC)
+2012	230	23010	5	2249681.71	2249681.71	0	Política energética y gestión administrativa
+2012	230	23030	20	799293.8099999998	799293.8099999998	0	Producción energética: fuentes renovables
+2012	230	23040	57	-831972.82	60220.34	892193.1599999999	Transmisión / distribución de energía eléctrica
+2012	230	23050	1	0	0	0	Distribución de gas
+2012	230	23065	2	112554.73	112554.73	0	Centrales hidroeléctricas
+2012	230	23066	1	-1133481.43	0	1133481.43	Energía geotérmica
+2012	230	23067	11	42021.49	42021.49	0	Energía solar
+2012	230	23068	13	15014.36	93276.5	78262.14	Energía eólica
+2012	230	23070	5	36490.79	36490.79	0	Biomasa
+2012	230	23081	17	-277020.42999999993	68757.00000000003	345777.43	Educación, formación en temas energéticos
+2012	230	23082	5	16272.51	16272.51	0	Investigación energética
+2012	240	24010	3	33360	33360	0	Política financiera y gestión administrativa
+2012	240	24030	85	-8062006.059999999	35305081.4	43367087.459999986	Intermediarios financieros del sector formal
+2012	240	24040	16	1763409.23	1763409.23	0	Intermediarios financieros semi-formales, informales
+2012	240	24081	1	3780.57	3780.57	0	Enseñanza / formación en banca y servicios financieros
+2012	250	25010	23	1555825.31	1555825.31	0	Servicios e instituciones de apoyo a la empresa
+2012	311	31110	15	8725803.93	9015212.93	289409	Política agraria y gestión administrativa
+2012	311	31120	183	24909824.16	25337109.34	427285.18	Desarrollo agrario
+2012	311	31130	5	159584.62	159584.62	0	Tierras cultivables
+2012	311	31140	31	1871074.6500000004	1871074.6500000004	0	Recursos hídricos para uso agrícola
+2012	311	31150	13	220489.76	220489.76	0	Insumos agrícolas
+2012	311	31161	65	2663974.48	2663974.48	0	Producción de alimentos agrícolas
+2012	311	31162	11	910199.4500000001	910199.4500000001	0	Cultivos industriales destinados a la exportación
+2012	311	31163	22	3127633.4	3127633.4	0	Ganadería
+2012	311	31164	2	471557.6	471557.6	0	Reforma agraria
+2012	311	31165	12	157978.46000000005	157978.46000000005	0	Desarrollo agrario alternativo
+2012	311	31166	7	358894.03	358894.03	0	Extensión agraria.
+2012	311	31181	34	739346.49	739346.49	0	Enseñanza / formación agraria
+2012	311	31182	29	1701972.75	1701972.75	0	Investigación agraria.
+2012	311	31191	5	443745.28	443745.28	0	Servicios agrícolas
+2012	311	31192	2	1662.97	1662.97	0	Protec. plantas y cosechas recogidas y lucha c. plagas
+2012	311	31193	3	600170.73	600170.73	0	Servicios financieros agrícolas
+2012	311	31194	51	3075279.17	3075279.17	0	Cooperativas agrícolas
+2012	311	31195	4	20196.67	20196.67	0	Servicios veterinarios
+2012	312	31210	6	367761.36	367761.36	0	Política forestal y gestión administrativa
+2012	312	31220	10	36163.86	36163.86	0	Desarrollo forestal
+2012	312	31261	1	1541.46	1541.46	0	Producción de carbón vegetal / leña
+2012	312	31281	9	114355.62999999999	114355.62999999999	0	Educación, formación forestal
+2012	312	31282	5	15293.29	15293.29	0	Investigación en silvicultura
+2012	313	31310	14	540766.98	540766.98	0	Política pesquera y gestión administrativa
+2012	313	31320	16	335039.4400000003	2232600.11	1897560.67	Desarrollo pesquero
+2012	313	31381	9	270750.41	270750.41	0	Educación, formación pesquera
+2012	313	31382	10	263670.23	263670.23	0	Investigación pesquera
+2012	313	31391	2	243088.84	243088.84	0	Servicios pesqueros
+2012	321	32110	3	1478326.4	1478326.4	0	Política industrial y gestión administrativa
+2012	321	32120	27	338026.1200000001	338026.1200000001	0	Desarrollo industrial
+2012	321	32130	36	5695579.52	6250108.739999999	554529.22	Desarrollo de PYMES
+2012	321	32140	22	1067757.5600000003	1067757.5600000003	0	Industria artesanal
+2012	321	32161	20	1591230.4600000002	1723489.6800000002	132259.22	Agroindustrias
+2012	321	32162	1	14000	14000	0	Industrias forestales
+2012	321	32163	2	9607	9607	0	Textiles, piel y sustitutos
+2012	321	32164	3	-35103.46	1188.54	36292	Productos químicos
+2012	321	32166	1	11250	11250	0	Cemento, cal, yeso
+2012	321	32168	1	0	0	0	Producción farmacéutica
+2012	321	32172	5	0	0	0	Material de transporte
+2012	321	32182	18	158754.80000000005	158754.80000000005	0	Investigación y desarrollo tecnológico
+2012	322	32210	1	3100	3100	0	Política de las industrias extractivas y gestión administrativa
+2012	322	32220	3	8754.73	8754.73	0	Prospección de minerales y exploración
+2012	322	32262	1	0	0	0	Petróleo y gas
+2012	322	32265	1	4800	4800	0	Metales / minerales preciosos
+2012	323	32310	2	127028.65	127028.65	0	Política de construcción y gestión administrativa
+2012	331	33110	5	3998232.05	4248440.33	250208.28	Política comercial y gestión administrativa
+2012	331	33120	9	17172.7	17172.7	0	Fomento del comercio
+2012	331	33130	1	1124.45	1124.45	0	Acuerdos comerciales regionales
+2012	331	33181	4	16510.77	16510.77	0	Educación / formación comercial
+2012	332	33210	37	1077663.33	1077663.33	0	Política turística y gestión administrativa
+2012	410	41010	36	6921008.75	6921008.75	0	Política medioambiental y gestión administrativa
+2012	410	41020	7	445892.70000000007	445892.70000000007	0	Protección de la biosfera
+2012	410	41030	32	1661717.82	1661717.82	0	Biodiversidad
+2012	410	41040	53	2330044.29	2330044.29	0	Protección del patrimonio histórico, artístico y arqueológico
+2012	410	41081	37	825547.78	825547.78	0	Educación / formación medioambiental
+2012	410	41082	24	294028.23	294028.23	0	Investigación medioambiental
+2012	430	43010	203	30606776.37	30606776.37	0	Ayuda multisectorial
+2012	430	43030	33	1848848.5899999999	1874815.9	25967.31	Desarrollo y gestión urbanos
+2012	430	43040	84	25272335.690000005	25272335.690000005	0	Desarrollo rural
+2012	430	43081	377	6033515.169999994	6033515.169999994	0	Enseñanza / formación multisectoriales
+2012	430	43082	147	1645586.8800000004	1755311.8800000004	109725	Instituciones científicas y de investigación
+2012	510	51010	3	4334333.34	4334333.34	0	Apoyo presupuestario general
+2012	520	52010	42	12129606.62	12129606.62	0	Ayuda Alimentaria / Programas de seguridad alimentaria
+2012	530	53030	9	-236972	568175	805147	Apoyo a la importación (bienes de equipo)
+2012	530	53040	1	0	0	0	Apoyo a la importación (productos)
+2012	600	60010	1	7373	7373	0	Actividades relacionadas con la deuda
+2012	600	60020	6	56608476.56	56608476.56	0	Condonación de deuda
+2012	600	60040	2	2346218.83	2346218.83	0	Reestructuración y refinanciación
+2012	600	60061	1	1754.73	1754.73	0	Canje de deuda por proyectos de desarrollo
+2012	720	72010	159	38533329.38	38533329.38	0	Ayuda y servicios materiales de emergencia
+2012	720	72040	58	9773430.040000001	9773430.040000001	0	Ayuda alimentaria de emergencia
+2012	720	72050	23	7637843.02	7637843.02	0	Coordinación de los servicios de protección de la ayuda
+2012	730	73010	34	10241053.540000001	10241053.540000001	0	Ayuda a la reconstrucción y rehabilitación
+2012	740	74010	42	5845540.300000001	5845540.300000001	0	Prevención de desastres
+2012	910	91010	278	132671080.92999996	132671080.92999996	0	Costes administrativos
+2012	930	93010	43	17676669.999999993	17676669.999999993	0	Ayuda a refugiados en el país donante
+2012	998	99810	339	763409128.7700001	771421093.5900002	8011964.820000002	Sectores no especificados
+2012	998	99820	1143	32448982.990000006	32448982.990000006	0	Sensibilización sobre los problemas rel. con el desarrollo
